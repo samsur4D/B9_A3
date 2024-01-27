@@ -10,3 +10,31 @@
     max-width: 1200px;
     margin: auto;
 }
+
+
+.border_bottom{
+    border-bottom: 1.5px dashed rgba(158, 157, 157, 0.361);
+}
+
+.border_top{
+    border-top: 1.5px dashed rgba(158, 157, 157, 0.361);
+}
+
+.ps-div1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.35)), url(Images/2.png);
+    height: 350px;
+}
+.ps-div2{
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.35)), url(Images/3.png);
+    height: 350px;
+}
+.ps-div3{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.35)),url(Images/4.png);
+    height: 400px;
+}
+.ps-div1, .ps-div2, .ps-div3{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
