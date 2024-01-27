@@ -38,3 +38,13 @@
     background-repeat: no-repeat;
     border-radius: 15px;
 }
+
+.borderitem{
+    border: 0.5px solid rgba(217, 216, 216, 0.783);
+}
+
+@media (0px < width <= 650px) {
+    .contain{
+        padding: 0rem 0.5rem;
+    }
+}
